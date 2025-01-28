@@ -11,8 +11,8 @@ from sklearn.model_selection import train_test_split
 from statsmodels.tsa.arima.model import ARIMA
 from transformers import pipeline
 
-API_KEY = "sku6U8GraviS7oH9cEazXSejv1AnKPDCKG4vOIrPxXNyLUKC23vsYYD3rUL7b0gYFcAOHfItSNXbp9ofJEwaDm9hkD7vrFJXwBXUbYtjVOPixhOEKjapNRyvQx42xC1JM0jhEG3opwkEzUp678iS1BN2HL7ms5EHZ5eXNv3JsLCYmmPLHJ0i" #Groq API Key
-SLACK_WEBHOOK = "https://hooks.slack.com/services/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" #Slack webhook url
+API_KEY = "" #Groq API Key
+SLACK_WEBHOOK = "" #Slack webhook url
 
 
 def truncate_text(text, max_length=512):
